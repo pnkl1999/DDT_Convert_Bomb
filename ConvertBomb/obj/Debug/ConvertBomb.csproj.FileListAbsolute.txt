@@ -1,0 +1,13 @@
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\bin\Debug\ConvertBomb.exe.config
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\bin\Debug\ConvertBomb.exe
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\bin\Debug\ConvertBomb.pdb
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.csproj.AssemblyReference.cache
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.frmMain.resources
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.Properties.Resources.resources
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.csproj.GenerateResource.cache
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.csproj.CoreCompileInputs.cache
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.exe
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.pdb
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\bin\Debug\log4net.dll
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\bin\Debug\log4net.xml
+C:\Users\khanh\source\repos\ConvertBomb\ConvertBomb\obj\Debug\ConvertBomb.csproj.CopyComplete
