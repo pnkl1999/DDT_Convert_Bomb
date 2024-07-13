@@ -35,6 +35,8 @@
             this.lblStatus = new System.Windows.Forms.Label();
             this.listError = new System.Windows.Forms.ListView();
             this.lblAbout = new System.Windows.Forms.Label();
+            this.rBtnBomb = new System.Windows.Forms.RadioButton();
+            this.rBtnMap = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // btnConvert
@@ -81,9 +83,9 @@
             this.listError.Dock = System.Windows.Forms.DockStyle.Right;
             this.listError.FullRowSelect = true;
             this.listError.HideSelection = false;
-            this.listError.Location = new System.Drawing.Point(267, 0);
+            this.listError.Location = new System.Drawing.Point(355, 0);
             this.listError.Name = "listError";
-            this.listError.Size = new System.Drawing.Size(231, 205);
+            this.listError.Size = new System.Drawing.Size(231, 220);
             this.listError.TabIndex = 5;
             this.listError.UseCompatibleStateImageBehavior = false;
             // 
@@ -96,11 +98,35 @@
             this.lblAbout.TabIndex = 6;
             this.lblAbout.Text = "Phạm Ngọc Khánh Lâm";
             // 
+            // rBtnBomb
+            // 
+            this.rBtnBomb.AutoSize = true;
+            this.rBtnBomb.Location = new System.Drawing.Point(254, 113);
+            this.rBtnBomb.Name = "rBtnBomb";
+            this.rBtnBomb.Size = new System.Drawing.Size(92, 17);
+            this.rBtnBomb.TabIndex = 7;
+            this.rBtnBomb.TabStop = true;
+            this.rBtnBomb.Text = "Convert Bomb";
+            this.rBtnBomb.UseVisualStyleBackColor = true;
+            // 
+            // rBtnMap
+            // 
+            this.rBtnMap.AutoSize = true;
+            this.rBtnMap.Location = new System.Drawing.Point(254, 138);
+            this.rBtnMap.Name = "rBtnMap";
+            this.rBtnMap.Size = new System.Drawing.Size(86, 17);
+            this.rBtnMap.TabIndex = 8;
+            this.rBtnMap.TabStop = true;
+            this.rBtnMap.Text = "Convert Map";
+            this.rBtnMap.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 205);
+            this.ClientSize = new System.Drawing.Size(586, 220);
+            this.Controls.Add(this.rBtnMap);
+            this.Controls.Add(this.rBtnBomb);
             this.Controls.Add(this.lblAbout);
             this.Controls.Add(this.listError);
             this.Controls.Add(this.lblStatus);
@@ -108,8 +134,8 @@
             this.Controls.Add(this.txtResource);
             this.Controls.Add(this.btnConvert);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(514, 244);
-            this.MinimumSize = new System.Drawing.Size(514, 244);
+            this.MaximumSize = new System.Drawing.Size(602, 259);
+            this.MinimumSize = new System.Drawing.Size(602, 259);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tool Convert Bomb Demo";
@@ -126,5 +152,7 @@
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.ListView listError;
         private System.Windows.Forms.Label lblAbout;
+        private System.Windows.Forms.RadioButton rBtnBomb;
+        private System.Windows.Forms.RadioButton rBtnMap;
     }
 }
